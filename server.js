@@ -34,7 +34,7 @@ app.get('/',(req, res) => {
   // res.send('Hello express!');
   res.render('home.hbs',{
     pageTitle:"Home Page",
-    welcomeMessage:'Welcome to my Site'
+    welcomeMessage:'Welcome  to my Site'
   });
 
   });
